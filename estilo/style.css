@@ -1,2 +1,32 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02: "Graduate", serif; /* titulo */
+    --fonte03: "Chivo Mono", monospace; /* sub-titulo */ 
+
+    --cor01: #008F8C; /* cor de fundo do body */
+    --cor02: #015958;
+    --cor03: #0CABA8;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: var(--cor01);
+    font-family: var(--fonte01);
+}
+
+header{
+    background-image: linear-gradient( to top, var(--cor02), var(--cor03));
+    color: white;
+    text-align: center;
+}

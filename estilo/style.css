@@ -30,3 +30,43 @@ header{
     color: white;
     text-align: center;
 }
+
+header > h1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte02);
+    font-size: 6vw;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 15px;
+    line-height: 2em;
+    font-family: var(--fonte01);
+    font-size: 2.2vw;
+}
+
+section > p{
+    padding-bottom: 50px;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    
+}

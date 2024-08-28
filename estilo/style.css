@@ -36,7 +36,8 @@ header > h1{
     padding-bottom: 50px;
     font-variant: small-caps;
     font-family: var(--fonte02);
-    font-size: 6vw;
+    font-size: 7vw;
+    text-shadow: 4px 2px 9px black;
 }
 
 a{
@@ -55,7 +56,7 @@ section{
     padding-left: 15px;
     line-height: 2em;
     font-family: var(--fonte01);
-    font-size: 2.2vw;
+    font-size: 1.6vw;
 }
 
 section > p{
@@ -68,5 +69,43 @@ section.normal{
 }
 
 section.imagem{
-    
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    background-color: var(--cor01);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > h1{
+    color:var(--cor03);
+    text-shadow: 4px 2px 9px black;
+}
+
+section.imagem > p{
+    display: inline-block;
+    font-size: 2vw;
+    line-height: 1.5em;
+    text-align: justify;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.26);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01{
+    background-image: url(../imagens/Kafka.png);
+    background-position: top center;
+
+}
+
+section#img02{
+    background-image: url(../imagens/kaiju.jpg);
+    background-position: left center;
+}
+
+footer{
+    text-align: center;
+    padding: 5px;
 }
